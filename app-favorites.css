@@ -1,0 +1,92 @@
+html{
+
+	background: url("imageapp/app.jpg");
+	position: fixed no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.contact-title{
+	
+	margin-top: 90px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 7s ease-in-out;
+	text-align: center;
+}
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+}
+.contact-title h2{
+	font-size: 16px;
+
+}
+
+
+
+.diaporama{
+	margin: 0 auto;
+	width: 750px;
+	height: 350px;
+	border-radius: 3px solid #333;
+	background-image: url("imageapp/facebook.jpg");
+	box-shadow: 8px 8px 12px #aaa;
+
+
+	-webkit-animation-name:diapo1;
+	-webkit-animation-duration:10s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:normal;
+
+	-moz-animation-name: diapo1;
+	-moz-animation-duration:10s;
+	-moz-animation-timing-function:linear;
+	-moz-animation-iteration-count:infinite;
+	-moz-animation-direction:normal;
+
+	animation-name: diapo1;
+	animation-duration:10s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	animation-direction:normal;
+
+	
+}
+@-webkit-keyframes diapo1{
+	0%{background-image: url("imageapp/instagram.jpg");}
+	33%{background-image: url("imageapp/linkedin.jpg");}
+	66%{background-image: url("imageapp/netflix.jpg");}
+}
+
+.text{
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.text ul a .logo{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+}
+
+

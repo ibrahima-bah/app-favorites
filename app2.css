@@ -1,0 +1,99 @@
+html{
+
+	background: url("imageapp/background-instagram.jpg");
+	position: fixed no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+hr{
+        height: 3px;
+        background-color: #ff7d95;
+        border: double;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+}
+.debut{
+	
+	margin-top: 90px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 7s ease-in-out;
+	text-align: center;
+
+}
+em{
+	font-family: 'Crete Round', serif;
+}
+
+.main{
+	margin: 0 auto;
+	width: 750px;
+	height: 350px;
+	border-radius: 3px solid #333;
+	background-image: url("imageapp/capture-instagram.jpg");
+	box-shadow: 8px 8px 12px #aaa;
+
+	-webkit-animation-name:diapo1;
+	-webkit-animation-duration:10s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:normal;
+
+	-moz-animation-name: diapo1;
+	-moz-animation-duration:10s;
+	-moz-animation-timing-function:linear;
+	-moz-animation-iteration-count:infinite;
+	-moz-animation-direction:normal;
+
+	animation-name: diapo1;
+	animation-duration:10s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	animation-direction:normal;
+}
+
+@-webkit-keyframes diapo1{
+
+	0%{background-position: 0px 0px; }
+	31%{background-position: -960px 0px; }
+	64%{background-position: -1920px 0px; }
+	100%{background-position: -2880px 0px; }
+
+}
+@-moz-keyframes diapo1{
+
+	0%{background-position: 0px 0px; }
+	31%{background-position: -960px 0px; }
+	64%{background-position: -1920px 0px; }
+	100%{background-position: -2880px 0px; }
+
+}
+@keyframes diapo1{
+
+	0%{background-position: 0px 0px; }
+	31%{background-position: -960px 0px; }
+	64%{background-position: -1920px 0px; }
+	100%{background-position: -2880px 0px; }
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+footer h1{
+	font-family: 'Crete Round', serif;
+}
+footer p{
+	font-family: 'Crete Round', serif;
+}
